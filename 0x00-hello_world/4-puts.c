@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *printing a phrase on the screen
-
- *Return: 0 if exited properly, non-zero otherwise
- */
+ *  * main- entry point
+ *   *
+ *    * Return: ALways returns 0 for smooth execution
+ *     */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
