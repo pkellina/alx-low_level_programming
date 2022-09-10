@@ -6,7 +6,6 @@
 int main(void)
 {
 	int d = 48, a = 48;
-	
 	while (d < 58)
 	{
 		a = 58;
@@ -28,5 +27,5 @@ int main(void)
 		d++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
