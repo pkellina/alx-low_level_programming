@@ -6,14 +6,14 @@
 int main(void)
 {
 	int d = 48;
-	char c ='a';
+	char c = 'a';
 
 	while (d < 58)
 	{
 		putchar(d);
 		d++;
 	}
-	while (c < = 'f')
+	while (c <= 'f')
 	{
 		putchar(c);
 		c++;
