@@ -1,12 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * This program will assign a random number to the variable
- * Each time variable n is executed, order to print whether
- * the number stored in the variable n is positive, zero or negative
- *  Return: Always 0 (Success)
+ * Main -determine positive or negative of n
+ * Return - 0 for success
  */
 int main(void)
 {
