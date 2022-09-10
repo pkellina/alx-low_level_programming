@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - determine positive or negative of n
- * return - 0 for success
+ * Return: 0 for success
  */
 int main(void)
 {
