@@ -8,8 +8,6 @@
  * the number stored in the variable n is positive, zero or negative
  *  Return: Always 0 (Success)
  */
-
-
 int main(void)
 {
 	int n;
