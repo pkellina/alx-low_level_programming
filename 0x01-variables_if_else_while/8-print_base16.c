@@ -13,7 +13,7 @@ int main(void)
 		putchar(d);
 		d++;
 	}
-	while (c <= 'f')
+	while (c < = 'f')
 	{
 		putchar(c);
 		c++;
