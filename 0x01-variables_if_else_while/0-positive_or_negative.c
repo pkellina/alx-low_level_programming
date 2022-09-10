@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main -determine positive or negative of n
- * Return - 0 for success
+ * main - determine positive or negative of n
+ * return - 0 for success
  */
 int main(void)
 {
