@@ -3,46 +3,51 @@
 /**
  * jack_bauer - prints every minute of the day
  *
- * main: prints every minute of the day
+ * Description: prints every minute of the day
  *
  * Return: void
  */
 
 void jack_bauer(void)
 {
-	int hours_tens, hours_ones, minutes_tens, minutes_ones, hours_max;
-	hours_max = 58;
-	hours_tens = '0';
+	int h1;
+	int h2;
+	int m1;
+	int m2;
+	int maxh = 9;
 
-	while (hours_tens < '3')
+	h2 = 0;
+	while (h2 <= 2)
 	{
-		if (hours_tens == '2')
+		if (h2 == 2)
 		{
-			hours_max = '4';
+			maxh = 3;
 		}
-		hours_ones = '0';
-		while (hours_ones < hours_max)
+		h1 = 0;
+		while (h1 <= maxh)
 		{
-			minutes_tens = '0';
-			while (minutes_tens < '6')
+			m2 = 0;
+			while (m2 <= 5)
 			{
-				minutes_ones = '0';
-				while (minutes_ones < 58)
+				m1 = 0;
+				while (m1 <= 9)
 				{
-					_putchar(hours_tens);
-					_putchar(hours_ones);
+					
+					_putchar('0' + h2);
+					_putchar('0' + h1);
 					_putchar(':');
-					_putchar(minutes_tens);
+					_putchar('0' + m2);
+					_putchar('0' + m1);
 					_putchar('\n');
-					minutes_ones++;
+					m1++;
 				}
-				minutes_ones = '0';
-				minutes_tens++;
+				m2++;
 			}
-				minutes_tens = '0';
-				hours_ones++;
+			h1++;
+
 		}
-			hours_ones = '0';
-			hours_tens++;
+		h2++;
 	}
+	
 }
+
