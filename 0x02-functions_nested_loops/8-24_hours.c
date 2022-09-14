@@ -3,7 +3,7 @@
 /**
  * jack_bauer - prints every minute of the day
  *
- * Description: prints every minute of the day
+ * main: prints every minute of the day
  *
  * Return: void
  */
@@ -42,7 +42,7 @@ void jack_bauer(void)
 				minutes_tens = '0';
 				hours_ones++;
 		}
-				hours_ones = '0';
-				hours_tens++;
+			hours_ones = '0';
+			hours_tens++;
 	}
 }
