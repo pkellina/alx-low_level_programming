@@ -2,9 +2,7 @@
 
 /**
  * print_chessboard - print the chesssboard
- * @a: pointer to pieces to print
- *
- * Return: void
+ * @a: matrix
  */
 void print_chessbaord(char (*a)[8])
 {
@@ -19,4 +17,3 @@ void print_chessbaord(char (*a)[8])
 		_putchar('\n');
 	}
 }
-
