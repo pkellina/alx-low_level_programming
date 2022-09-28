@@ -12,8 +12,9 @@ int _pow_recursion(int n, int m)
 {
 	if (n < 0)
 		return (-1);
-	if (m == 0)
+	else if (m == 0)
 		return (1);
-	return (n * _pow_recursion(n, m - 1));
+	else
+		return (n * _pow_recursion(n, m - 1));
 }
 
