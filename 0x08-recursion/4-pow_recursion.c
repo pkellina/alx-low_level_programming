@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * factorial - calculates the factorial of n
- * @n: integer
+ * _pow_recursion - returns the value of n raised to the power of m
+ * @n: number to used
+ * @m: exponent to be used
  *
- * Return: on success 1
- * on error, -1 is returnedwith apprpraite errno
+ * Return n ^ m
  */
 
-int factorial(int n)
+int _pow_recursion(int n, int m)
 {
 	if (n < 0)
 		return (-1);
-	if (n == 0)
+	if (m == 0)
 		return (1);
-	return (n * factorial(n - 1));
+	return (n * _pow_recursion(n, m - 1));
 }
 
