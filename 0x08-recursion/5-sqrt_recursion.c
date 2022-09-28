@@ -1,29 +1,31 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - returns the natural square root of a number
- * @n: number to be used
- *
- * Return: the square root of n
- */
-int _sqrt_recursion(int n)
+* sqrt2 - Makes possible to evaluate from 1 to n
+* @a: same number as n
+* @b: counter- iterates from 1 to n
+*
+* Return: On success 1
+* On error, -1 is returned with appropriate errno
+*/
+
+int sqrt2(int a, int b)
 {
-	if (n == 1 || n == 0)
-		return (n);
-	return (sqrt(0, n));
+	if (b * b == a)
+		return (b);
+	else if (b * b > a)
+		return (-1);
+	return (sqrt2(a, b + 1));
 }
 
 /**
- * _sqrt - returns the square root of a number
- * @n: squared number
- *
- * Return: the square root of n
- */
-int _sqrt(int n, int x)
+* _sqrt_recursion - returns the natural square root of n
+* @n: Number Integer
+*
+* Return: On success 1.
+* On error, -1 is returned, and errno is set appropriately.
+*/
+int _sqrt_recursion(int n)
 {
-	if (n > x / 2)
-		return (-1);
-	else if (n * n == x)
-		return (n);
-	return (_sqrt(n + 1, x));
+	return (sqrt2(n, 1));
 }
