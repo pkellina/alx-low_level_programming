@@ -5,7 +5,7 @@
  * @n: number to used
  * @m: exponent to be used
  *
- * Return n ^ m
+ * Return: n ^ m
  */
 
 int _pow_recursion(int n, int m)
