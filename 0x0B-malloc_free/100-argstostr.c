@@ -37,11 +37,11 @@ char *argstostr(int ac, char **av)
 			k++;
 			lt++;
 		}
-		
+
 		*(s + k) = '\n';
 		k++;
 	}
-	
-		*(s + k) = '\0';
-		return (s);
+
+	*(s + k) = '\0';
+	return (s);
 }
