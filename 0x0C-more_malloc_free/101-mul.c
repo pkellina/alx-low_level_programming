@@ -146,4 +146,3 @@ void print_array(char *a, int nb)
 	exit(EXIT_SUCCESS);
 	return (0);
 }
-
