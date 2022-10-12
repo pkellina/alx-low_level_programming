@@ -1,1 +1,1 @@
-a function that allocates memory using malloc.
+a function that prints a name.
