@@ -16,10 +16,10 @@ void print_all(const char * const format, ...);
 
 void print_char(va_list arg)
 {
-		char letter;
+	char letter;
 
-		letter = va_arg(arg, int);
-		printf("%c", letter);
+	letter = va_arg(arg, int);
+	printf("%c", letter);
 }
 
 /**
@@ -35,6 +35,7 @@ void print_int(va_list arg)
 	num = va_arg(arg, int);
 	printf("%d", num);
 }
+
 /**
  * print_float - Prints a float.
  * @arg: A list of arguments pointing to
