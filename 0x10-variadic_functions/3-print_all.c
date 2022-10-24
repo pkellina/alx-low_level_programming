@@ -39,7 +39,7 @@ void print_int(va_list arg)
 /**
  * print_float - Prints a float.
  * @arg: A list of arguments pointing to
- * the float to be printed.
+ * the float to be printed
  */
 
 void print_float(va_list arg)
